@@ -26,9 +26,6 @@ public class PlugInView extends JFrame{
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
-
-
-
         computeButton.addActionListener(e->{
 
             int a = Integer.parseInt(parameterA.getText());
