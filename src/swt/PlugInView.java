@@ -37,6 +37,8 @@ public class PlugInView extends JFrame{
             // Compute
             createTable(plugins, a, b);
 
+            clearTextFields();
+
         });
     }
 
