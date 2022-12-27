@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8a417db-c80f-486c-a220-8e83f23f20a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swt/PlugInView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swt/PlugInView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672164703741</updated>
-      <workItem from="1672164705309" duration="18886000" />
+      <workItem from="1672164705309" duration="20023000" />
     </task>
     <task id="LOCAL-00001" summary="SWT Aufgabe 8">
       <created>1672172766198</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672183745494</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated PlugIn">
+      <created>1672184307808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672184307808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +158,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="SWT Aufgabe 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="SWT Aufgabe 8" />
+    <MESSAGE value="Updated PlugIn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated PlugIn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
