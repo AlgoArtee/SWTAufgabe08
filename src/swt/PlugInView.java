@@ -8,6 +8,9 @@ public class PlugInView extends JFrame{
     private JPanel panelPlugins;
     private JTextField parameterA;
     private JTextField parameterB;
+
+    private JLabel parameterALable;
+    private JLabel parameterBLable;
     private JButton computeButton;
     private JTable pluginTable;
 
