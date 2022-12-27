@@ -31,7 +31,7 @@ public class Main {
          * Alternatively you may simply create a console user interface
          */
 
-
+        PlugInView l = new PlugInView(plugins);
 
 
 
