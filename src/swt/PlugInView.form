@@ -37,7 +37,7 @@
       <component id="7919b" class="javax.swing.JTextField" binding="parameterA">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+            <preferred-size width="50" height="-1"/>
           </grid>
         </constraints>
         <properties>
@@ -47,7 +47,7 @@
       <component id="7a5bb" class="javax.swing.JTextField" binding="parameterB">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+            <preferred-size width="50" height="-1"/>
           </grid>
         </constraints>
         <properties>
@@ -70,7 +70,7 @@
       <component id="ba937" class="javax.swing.JTable" binding="pluginTable">
         <constraints>
           <grid row="0" column="1" row-span="9" col-span="2" vsize-policy="6" hsize-policy="4" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="500" height="50"/>
+            <preferred-size width="800" height="50"/>
           </grid>
         </constraints>
         <properties/>

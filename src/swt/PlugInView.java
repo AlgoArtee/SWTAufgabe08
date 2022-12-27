@@ -18,7 +18,7 @@ public class PlugInView extends JFrame{
 
     public PlugInView(List<IPlugin> plugins) {
 
-        frame = new JFrame("Customer View");
+        frame = new JFrame("PlugIn Based Calculator");
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setPreferredSize(new Dimension(1000,500));
         frame.setResizable(false);
