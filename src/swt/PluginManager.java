@@ -19,8 +19,8 @@ public class PluginManager {
          * Use method 'loadPlugin' to create plugin instances for each plugin path in 'listPluginPaths'.
          */
 
-        for (var p: listPlugins){
-            IPlugin toLoad = loadPlugin(p.getPluginName());
+        for (var p: listPluginPaths){
+            IPlugin toLoad = loadPlugin(p);
             listPlugins.add(toLoad);
         }
 
@@ -33,8 +33,9 @@ public class PluginManager {
          * Creates ClassLoader object which has access to the current project folder.
          * (absolute path, e.g., print() might show 'file:/D:/MyProjects/HostApp/./'
          */
-        File file = new File(".");
+        File file = new File("./src/");
         ClassLoader cl = new URLClassLoader(new URL[]{file.toURI().toURL()});
+
 
         /* ToDo: Sub-Task: Create an IPlugin object out of Class 'c'
          * To do so look at the documentation of 'Class':

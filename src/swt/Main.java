@@ -20,6 +20,8 @@ public class Main {
 
         List<IPlugin> plugins = pm.listPlugins;
 
+        //System.out.println(plugins.size());
+
         for(var pi:plugins){
             System.out.println(pi.getPluginName() + " loaded!");
         }
@@ -28,6 +30,7 @@ public class Main {
          * Write small GUI to visualize plugin information, see 'PluginManager.getLoadedPlugins'
          * Alternatively you may simply create a console user interface
          */
+
 
 
 
@@ -64,7 +67,7 @@ public class Main {
 
                 if (extension.equals("class")) {
                     // Result may be, e.g., the binary name 'swt.PluginAnswer42' which can be read by the Java 'ClassLoader'
-                    String relativePluginPath = relativePluginFolderPath + "." + fileName.substring(0, i);
+                    String relativePluginPath = relativePluginFolderPath.substring(4) + "." + fileName.substring(0, i);
                     listPluginBinaryNames.add(relativePluginPath);
                     System.out.println("\tFound possible plugin: " + relativePluginPath);
                 }
