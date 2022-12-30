@@ -15,6 +15,8 @@ public class PlugInTable extends AbstractTableModel{
         this.plugIns = customPlugIns;
         this.a=a;
         this.b=b;
+
+        fireTableDataChanged();
     }
 
     public void setItems(List<IPlugin> currentPlugIns){
@@ -45,7 +47,13 @@ public class PlugInTable extends AbstractTableModel{
                 return selectedPlugIn.getGroupMembers();
             case 3:
                 try {
-                    return selectedPlugIn.run(a,b);
+                    if (a != 0 && b != 0) {
+                        return selectedPlugIn.run(a, b);
+                    } else {
+                        return "0";
+                    }
+                } catch (ArithmeticException e) {
+                    return "0";
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }

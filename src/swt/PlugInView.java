@@ -21,13 +21,15 @@ public class PlugInView extends JFrame{
         frame = new JFrame("PlugIn Based Calculator");
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setPreferredSize(new Dimension(1000,500));
-        frame.setResizable(false);
+        //frame.setResizable(false);
 
         //add panel
         frame.add(panelPlugins);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+        createTable(plugins, 0, 0);
 
         computeButton.addActionListener(e->{
 

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8a417db-c80f-486c-a220-8e83f23f20a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swt/PluginSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swt/PlugInTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swt/PlugInTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swt/PlugInView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swt/PlugInView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swt/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swt/PluginManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +95,7 @@
       <updated>1672164703741</updated>
       <workItem from="1672164705309" duration="22400000" />
       <workItem from="1672321926091" duration="2423000" />
-      <workItem from="1672424045115" duration="326000" />
+      <workItem from="1672424045115" duration="3793000" />
     </task>
     <task id="LOCAL-00001" summary="SWT Aufgabe 8">
       <created>1672172766198</created>
@@ -167,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672186623401</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated PlugIn">
+      <created>1672424379191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672424379191</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated PlugIn">
+      <created>1672424663201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672424663201</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

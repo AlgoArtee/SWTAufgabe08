@@ -20,8 +20,17 @@ public class PluginManager {
          */
 
         for (var p: listPluginPaths){
-            IPlugin toLoad = loadPlugin(p);
-            listPlugins.add(toLoad);
+
+            try {
+                IPlugin toLoad = loadPlugin(p);
+                listPlugins.add(toLoad);
+            } catch (ClassNotFoundException e) {
+                System.out.println("Error: Plugin class not found: " + p);
+            } catch (UnsupportedClassVersionError e) {
+                System.out.println("Error: Plugin compiled with a newer version of Java: " + p);
+            } catch (Throwable e) {
+                System.out.println("Error: Failed to load plugin: " + p);
+                e.printStackTrace();}
         }
 
 
